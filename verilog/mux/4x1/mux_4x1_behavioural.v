@@ -9,6 +9,5 @@ module mux_4x1 (i, s, y);
 	always @ (s)
 	begin
 		y <= i[s];
-		//$display("%b\t%b",i[s],y);
 	end
 endmodule
